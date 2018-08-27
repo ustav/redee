@@ -1,4 +1,4 @@
-package is24.poc.api.Model;
+package is24.mapi.Model;
 
 /**
  * Created by dprawdzik on 10.01.18.

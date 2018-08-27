@@ -1,0 +1,419 @@
+{
+  "expose.expose": {
+    "@contactFormType": "LONG",
+    "@xlink.href": "https://rest.immobilienscout24.de/restapi/api/search/v1.0/expose/106895045/api/search/v1.0/expose/106895045",
+    "@id": "106895045",
+    "@modification": "2018-08-27T11:39:50.637Z",
+    "@creation": "2018-08-24T13:09:27.000+02:00",
+    "@publishDate": "2018-08-24T13:09:27.000+02:00",
+    "realEstate": {
+      "@xsi.type": "expose:ApartmentRent",
+      "@id": "106895045",
+      "externalId": "1400-51805-0100",
+      "title": "Neubau Erstbezug - am Rande von Biesdorf - ohne WBS",
+      "creationDate": "2018-08-24T13:09:27.000+02:00",
+      "lastModificationDate": "2018-08-27T11:39:50.637Z",
+      "address": {
+        "street": "Eugen-Roth-Weg",
+        "houseNumber": "10",
+        "postcode": "12681",
+        "city": "Berlin",
+        "quarter": "Biesdorf (Marzahn)",
+        "wgs84Coordinate": {
+          "latitude": 52.51966277443793,
+          "longitude": 13.545634814623547
+        },
+        "geoHierarchy": {
+          "continent": {
+            "geoCodeId": 1,
+            "fullGeoCodeId": "1"
+          },
+          "country": {
+            "name": "Deutschland",
+            "geoCodeId": 276,
+            "fullGeoCodeId": "1276"
+          },
+          "region": {
+            "name": "Berlin",
+            "geoCodeId": 3,
+            "fullGeoCodeId": "1276003"
+          },
+          "city": {
+            "name": "Berlin",
+            "geoCodeId": 1,
+            "fullGeoCodeId": "1276003001"
+          },
+          "quarter": {
+            "name": "Biesdorf (Marzahn)",
+            "geoCodeId": 3,
+            "fullGeoCodeId": "1276003001003"
+          },
+          "neighbourhood": {
+            "geoCodeId": 11000000001738
+          }
+        }
+      },
+      "groupNumber": 13,
+      "descriptionNote": "Unsere Wohnungen stehen übergabefertig ab Dezember 2018 zur Verfügung, zurzeit sind keine Besichtigungen möglich. Die vorhandenen Fotos sind beispielhaft.",
+      "furnishingNote": " Balkon/Loggia, Küche mit Fenster, Dusche, gefliestes Bad, Aufzug ebenerdig, Fernwarmwasserversorgung, Fußbodenheizung, Kabelfernsehen, Offene Küche, 2. WC / Gäste WC, Abstellraum, Fern-/Zentralheizung",
+      "locationNote": " gute Einkaufsmöglichkeiten, Park- und Grünflächen in unmittelbarer Nähe, Schule/Kita in der Nähe, Spielplatz auf dem Grundstück, Gesellschaftsraum,  Bus: 194,  S-Bahn: S7, 75,  Tram: M8, 18",
+      "otherNote": "frei ab 01.12.2018\nDie angegebene Miete entspricht der zu zahlenden Miete incl. eventuell zu zahlender Nebenkosten! (Achtung, gilt nicht bei Gasetagenheizungen!)\nDie Haltung von Hunden ist nur auf Anfrage möglich.\n",
+      "attachments": [
+        {
+          "@xlink.href": "https://rest.immobilienscout24.de/restapi/api/search/v1.0/expose/106895045/api/search/v1.0/expose/106895045/attachment",
+          "attachment": [
+            {
+              "@xsi.type": "common:Picture",
+              "@xlink.href": "https://rest.immobilienscout24.de/restapi/api/search/v1.0/expose/106895045/api/search/v1.0/expose/106895045/attachment/1",
+              "@id": "1",
+              "@modification": "2018-08-27T11:39:50.637Z",
+              "@creation": "2018-08-27T11:39:50.637Z",
+              "@publishDate": "2018-08-27T11:39:50.637Z",
+              "title": "Vision",
+              "floorplan": "false",
+              "titlePicture": "true",
+              "urls": [
+                {
+                  "url": [
+                    {
+                      "@scale": "SCALE_60x60",
+                      "@href": "https://pictures.immobilienscout24.de/listings/e1cc3f55-fe77-49bf-b24f-6ee3f73555be-1234066885.jpg/ORIG/resize/60x60%3E/extent/60x60/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE_118x118",
+                      "@href": "https://pictures.immobilienscout24.de/listings/e1cc3f55-fe77-49bf-b24f-6ee3f73555be-1234066885.jpg/ORIG/resize/118x118%3E/extent/118x118/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE_210x210",
+                      "@href": "https://pictures.immobilienscout24.de/listings/e1cc3f55-fe77-49bf-b24f-6ee3f73555be-1234066885.jpg/ORIG/resize/210x210%3E/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE_540x540",
+                      "@href": "https://pictures.immobilienscout24.de/listings/e1cc3f55-fe77-49bf-b24f-6ee3f73555be-1234066885.jpg/ORIG/resize/540x540%3E/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE",
+                      "@href": "https://pictures.immobilienscout24.de/listings/e1cc3f55-fe77-49bf-b24f-6ee3f73555be-1234066885.jpg/ORIG/resize/%WIDTH%x%HEIGHT%%3E/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE_AND_CROP",
+                      "@href": "https://pictures.immobilienscout24.de/listings/e1cc3f55-fe77-49bf-b24f-6ee3f73555be-1234066885.jpg/ORIG/legacy_thumbnail/%WIDTH%x%HEIGHT%/format/jpg"
+                    },
+                    {
+                      "@scale": "WHITE_FILLING",
+                      "@href": "https://pictures.immobilienscout24.de/listings/e1cc3f55-fe77-49bf-b24f-6ee3f73555be-1234066885.jpg/ORIG/resize/%WIDTH%x%HEIGHT%%3E/extent/%WIDTH%x%HEIGHT%/format/jpg"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@xsi.type": "common:Picture",
+              "@xlink.href": "https://rest.immobilienscout24.de/restapi/api/search/v1.0/expose/106895045/api/search/v1.0/expose/106895045/attachment/2",
+              "@id": "2",
+              "@modification": "2018-08-27T11:39:50.637Z",
+              "@creation": "2018-08-27T11:39:50.637Z",
+              "@publishDate": "2018-08-27T11:39:50.637Z",
+              "title": "Grundriss NB",
+              "floorplan": "true",
+              "titlePicture": "false",
+              "urls": [
+                {
+                  "url": [
+                    {
+                      "@scale": "SCALE_60x60",
+                      "@href": "https://pictures.immobilienscout24.de/listings/51c9d037-e380-429e-b342-e9281b1040cc-1234066887.jpg/ORIG/resize/60x60%3E/extent/60x60/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE_118x118",
+                      "@href": "https://pictures.immobilienscout24.de/listings/51c9d037-e380-429e-b342-e9281b1040cc-1234066887.jpg/ORIG/resize/118x118%3E/extent/118x118/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE_210x210",
+                      "@href": "https://pictures.immobilienscout24.de/listings/51c9d037-e380-429e-b342-e9281b1040cc-1234066887.jpg/ORIG/resize/210x210%3E/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE_540x540",
+                      "@href": "https://pictures.immobilienscout24.de/listings/51c9d037-e380-429e-b342-e9281b1040cc-1234066887.jpg/ORIG/resize/540x540%3E/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE_1000x1000",
+                      "@href": "https://pictures.immobilienscout24.de/listings/51c9d037-e380-429e-b342-e9281b1040cc-1234066887.jpg/ORIG/resize/1000x1000%3E/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE",
+                      "@href": "https://pictures.immobilienscout24.de/listings/51c9d037-e380-429e-b342-e9281b1040cc-1234066887.jpg/ORIG/resize/%WIDTH%x%HEIGHT%%3E/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE_AND_CROP",
+                      "@href": "https://pictures.immobilienscout24.de/listings/51c9d037-e380-429e-b342-e9281b1040cc-1234066887.jpg/ORIG/legacy_thumbnail/%WIDTH%x%HEIGHT%/format/jpg"
+                    },
+                    {
+                      "@scale": "WHITE_FILLING",
+                      "@href": "https://pictures.immobilienscout24.de/listings/51c9d037-e380-429e-b342-e9281b1040cc-1234066887.jpg/ORIG/resize/%WIDTH%x%HEIGHT%%3E/extent/%WIDTH%x%HEIGHT%/format/jpg"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@xsi.type": "common:Picture",
+              "@xlink.href": "https://rest.immobilienscout24.de/restapi/api/search/v1.0/expose/106895045/api/search/v1.0/expose/106895045/attachment/3",
+              "@id": "3",
+              "@modification": "2018-08-27T11:39:50.637Z",
+              "@creation": "2018-08-27T11:39:50.637Z",
+              "@publishDate": "2018-08-27T11:39:50.637Z",
+              "title": "Zimmer",
+              "floorplan": "false",
+              "titlePicture": "false",
+              "urls": [
+                {
+                  "url": [
+                    {
+                      "@scale": "SCALE_60x60",
+                      "@href": "https://pictures.immobilienscout24.de/listings/a6aee0c0-5c67-465a-a9ef-5755afba5048-1234066889.jpg/ORIG/resize/60x60%3E/extent/60x60/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE_118x118",
+                      "@href": "https://pictures.immobilienscout24.de/listings/a6aee0c0-5c67-465a-a9ef-5755afba5048-1234066889.jpg/ORIG/resize/118x118%3E/extent/118x118/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE_210x210",
+                      "@href": "https://pictures.immobilienscout24.de/listings/a6aee0c0-5c67-465a-a9ef-5755afba5048-1234066889.jpg/ORIG/resize/210x210%3E/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE_540x540",
+                      "@href": "https://pictures.immobilienscout24.de/listings/a6aee0c0-5c67-465a-a9ef-5755afba5048-1234066889.jpg/ORIG/resize/540x540%3E/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE",
+                      "@href": "https://pictures.immobilienscout24.de/listings/a6aee0c0-5c67-465a-a9ef-5755afba5048-1234066889.jpg/ORIG/resize/%WIDTH%x%HEIGHT%%3E/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE_AND_CROP",
+                      "@href": "https://pictures.immobilienscout24.de/listings/a6aee0c0-5c67-465a-a9ef-5755afba5048-1234066889.jpg/ORIG/legacy_thumbnail/%WIDTH%x%HEIGHT%/format/jpg"
+                    },
+                    {
+                      "@scale": "WHITE_FILLING",
+                      "@href": "https://pictures.immobilienscout24.de/listings/a6aee0c0-5c67-465a-a9ef-5755afba5048-1234066889.jpg/ORIG/resize/%WIDTH%x%HEIGHT%%3E/extent/%WIDTH%x%HEIGHT%/format/jpg"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@xsi.type": "common:Picture",
+              "@xlink.href": "https://rest.immobilienscout24.de/restapi/api/search/v1.0/expose/106895045/api/search/v1.0/expose/106895045/attachment/4",
+              "@id": "4",
+              "@modification": "2018-08-27T11:39:50.637Z",
+              "@creation": "2018-08-27T11:39:50.637Z",
+              "@publishDate": "2018-08-27T11:39:50.637Z",
+              "title": "Bad",
+              "floorplan": "false",
+              "titlePicture": "false",
+              "urls": [
+                {
+                  "url": [
+                    {
+                      "@scale": "SCALE_60x60",
+                      "@href": "https://pictures.immobilienscout24.de/listings/32fa3cf5-aae8-47ad-8c07-605353201641-1234066891.jpg/ORIG/resize/60x60%3E/extent/60x60/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE_118x118",
+                      "@href": "https://pictures.immobilienscout24.de/listings/32fa3cf5-aae8-47ad-8c07-605353201641-1234066891.jpg/ORIG/resize/118x118%3E/extent/118x118/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE_210x210",
+                      "@href": "https://pictures.immobilienscout24.de/listings/32fa3cf5-aae8-47ad-8c07-605353201641-1234066891.jpg/ORIG/resize/210x210%3E/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE_540x540",
+                      "@href": "https://pictures.immobilienscout24.de/listings/32fa3cf5-aae8-47ad-8c07-605353201641-1234066891.jpg/ORIG/resize/540x540%3E/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE",
+                      "@href": "https://pictures.immobilienscout24.de/listings/32fa3cf5-aae8-47ad-8c07-605353201641-1234066891.jpg/ORIG/resize/%WIDTH%x%HEIGHT%%3E/format/jpg"
+                    },
+                    {
+                      "@scale": "SCALE_AND_CROP",
+                      "@href": "https://pictures.immobilienscout24.de/listings/32fa3cf5-aae8-47ad-8c07-605353201641-1234066891.jpg/ORIG/legacy_thumbnail/%WIDTH%x%HEIGHT%/format/jpg"
+                    },
+                    {
+                      "@scale": "WHITE_FILLING",
+                      "@href": "https://pictures.immobilienscout24.de/listings/32fa3cf5-aae8-47ad-8c07-605353201641-1234066891.jpg/ORIG/resize/%WIDTH%x%HEIGHT%%3E/extent/%WIDTH%x%HEIGHT%/format/jpg"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@xsi.type": "common:Link",
+              "@xlink.href": "https://rest.immobilienscout24.de/restapi/api/search/v1.0/expose/106895045/api/search/v1.0/expose/106895045/attachment/5",
+              "@id": "5",
+              "@modification": "2018-08-27T11:39:50.637Z",
+              "@creation": "2018-08-27T11:39:50.637Z",
+              "@publishDate": "2018-08-27T11:39:50.637Z",
+              "title": "Detaillink",
+              "url": "http://www.degewo.de/content/de/immobiliensuche/expose.eid-1400-51805-0100.html"
+            },
+            {
+              "@xsi.type": "common:Link",
+              "@xlink.href": "https://rest.immobilienscout24.de/restapi/api/search/v1.0/expose/106895045/api/search/v1.0/expose/106895045/attachment/6",
+              "@id": "6",
+              "@modification": "2018-08-27T11:39:50.637Z",
+              "@creation": "2018-08-27T11:39:50.637Z",
+              "@publishDate": "2018-08-27T11:39:50.637Z",
+              "title": "degewo-Kiezportrait",
+              "url": "http://www.degewo.de/content/de/Wohnen/_2-6-Kiezportraits/Marzahn-Hellersdorf/Ahrensfelder-Terrassen.html"
+            }
+          ]
+        }
+      ],
+      "referencePriceServiceCall": "https://www.immobilienscout24.de/realestatevaluation/ajax/v2.2/referenceprice/region/3/city/1/district/3?realEstateType=0&price=9.99&livingArea=95.17&constructionYear=2018&firstTimeUse=false",
+      "referencePriceApiCall": "https://www.immobilienscout24.de/realestatevaluation/ajax/v2.2/referenceprice/region/3/city/1/district/3?realEstateType=0&price=9.99&livingArea=95.17&constructionYear=2018&firstTimeUse=false",
+      "state": "ACTIVE",
+      "titlePicture": {
+        "@id": "1",
+        "@modification": "2018-08-27T11:39:50.637Z",
+        "@creation": "2018-08-27T11:39:50.637Z",
+        "@publishDate": "2018-08-27T11:39:50.637Z",
+        "title": "Vision",
+        "floorplan": "false",
+        "titlePicture": "true",
+        "urls": [
+          {
+            "url": [
+              {
+                "@scale": "SCALE_60x60",
+                "@href": "https://pictures.immobilienscout24.de/listings/e1cc3f55-fe77-49bf-b24f-6ee3f73555be-1234066885.jpg/ORIG/resize/60x60%3E/extent/60x60/format/jpg"
+              },
+              {
+                "@scale": "SCALE_118x118",
+                "@href": "https://pictures.immobilienscout24.de/listings/e1cc3f55-fe77-49bf-b24f-6ee3f73555be-1234066885.jpg/ORIG/resize/118x118%3E/extent/118x118/format/jpg"
+              },
+              {
+                "@scale": "SCALE_210x210",
+                "@href": "https://pictures.immobilienscout24.de/listings/e1cc3f55-fe77-49bf-b24f-6ee3f73555be-1234066885.jpg/ORIG/resize/210x210%3E/format/jpg"
+              },
+              {
+                "@scale": "SCALE_540x540",
+                "@href": "https://pictures.immobilienscout24.de/listings/e1cc3f55-fe77-49bf-b24f-6ee3f73555be-1234066885.jpg/ORIG/resize/540x540%3E/format/jpg"
+              },
+              {
+                "@scale": "SCALE",
+                "@href": "https://pictures.immobilienscout24.de/listings/e1cc3f55-fe77-49bf-b24f-6ee3f73555be-1234066885.jpg/ORIG/resize/%WIDTH%x%HEIGHT%%3E/format/jpg"
+              },
+              {
+                "@scale": "SCALE_AND_CROP",
+                "@href": "https://pictures.immobilienscout24.de/listings/e1cc3f55-fe77-49bf-b24f-6ee3f73555be-1234066885.jpg/ORIG/legacy_thumbnail/%WIDTH%x%HEIGHT%/format/jpg"
+              },
+              {
+                "@scale": "WHITE_FILLING",
+                "@href": "https://pictures.immobilienscout24.de/listings/e1cc3f55-fe77-49bf-b24f-6ee3f73555be-1234066885.jpg/ORIG/resize/%WIDTH%x%HEIGHT%%3E/extent/%WIDTH%x%HEIGHT%/format/jpg"
+              }
+            ]
+          }
+        ]
+      },
+      "floorplan": "true",
+      "apartmentType": "APARTMENT",
+      "floor": 2,
+      "lift": "true",
+      "assistedLiving": "false",
+      "cellar": "NOT_APPLICABLE",
+      "handicappedAccessible": "NOT_APPLICABLE",
+      "condition": "NO_INFORMATION",
+      "constructionYear": 2018,
+      "freeFrom": "01.12.2018",
+      "firingTypes": [
+        {
+          "firingType": "DISTRICT_HEATING"
+        }
+      ],
+      "energySourcesEnev2014": {
+        "energySourceEnev2014": "DISTRICT_HEATING"
+      },
+      "buildingEnergyRatingType": "ENERGY_REQUIRED",
+      "thermalCharacteristic": 51.7,
+      "energyConsumptionContainsWarmWater": "YES",
+      "numberOfFloors": 8,
+      "guestToilet": "NOT_APPLICABLE",
+      "baseRent": 950.75,
+      "totalRent": 1188.68,
+      "serviceCharge": 161.79,
+      "deposit": "drei Nettokaltmieten",
+      "heatingCosts": 76.14,
+      "heatingCostsInServiceCharge": "NO",
+      "calculatedTotalRent": 1188.68,
+      "calculatedTotalRentScope": "WARM_RENT",
+      "petsAllowed": "NO_INFORMATION",
+      "useAsFlatshareRoom": "NOT_APPLICABLE",
+      "livingSpace": 95.17,
+      "numberOfRooms": 4,
+      "energyPerformanceCertificate": "true",
+      "builtInKitchen": "false",
+      "balcony": "true",
+      "certificateOfEligibilityNeeded": "false",
+      "garden": "false",
+      "courtage": {
+        "hasCourtage": "NOT_APPLICABLE"
+      }
+    },
+    "contactDetails": {
+      "@id": "106895045",
+      "salutation": "NO_SALUTATION",
+      "lastname": "Vermietung, Marzahn  MB",
+      "faxNumberCountryCode": "+49",
+      "faxNumberAreaCode": "30",
+      "faxNumberSubscriber": "26485-2508",
+      "faxNumber": "030 26485-2508",
+      "phoneNumberCountryCode": "+49",
+      "phoneNumberAreaCode": "30",
+      "phoneNumberSubscriber": "26485-2585",
+      "phoneNumber": "030 26485-2585",
+      "cellPhoneNumber": "",
+      "address": {
+        "street": "Mehrower Allee",
+        "houseNumber": "52",
+        "postcode": "12687",
+        "city": "Berlin"
+      },
+      "company": "degewo Marzahner Wohnungsgesellschaft mbH",
+      "homepageUrl": "http://www.degewo.de",
+      "realtorLogo": "https://pic.immobilienscout24.de/pic/orig04/L/471/153/451/471153451-0.jpg/ORIG/resize/200x200%3E"
+    },
+    "imprintLink": {
+      "@xlink.href": "https://rest.immobilienscout24.de/restapi/api/search/v1.0/expose/106895045/api/search/v1.0/expose/106895045/imprint"
+    },
+    "realtorValuationJSONLink": {
+      "@xlink.href": "https://www.immobilienscout24.de/expose/realtorEvaluation/no-information"
+    },
+    "realtorValuationV2JSONLink": {
+      "@xlink.href": "https://www.immobilienscout24.de/expose/realtorEvaluation/no-information"
+    },
+    "realtorValuationV2JSONPLink": {
+      "@xlink.href": "https://www.immobilienscout24.de/expose/realtorEvaluation/no-information"
+    },
+    "companyWideCustomerId": "002.01007941795",
+    "contactFormConfiguration": {
+      "firstnameField": "MANDATORY",
+      "lastnameField": "MANDATORY",
+      "phoneNumberField": "OPTIONAL",
+      "emailAddressField": "MANDATORY",
+      "addressField": "MANDATORY",
+      "salutationField": "MANDATORY",
+      "messageField": "OPTIONAL",
+      "premiumProfileRequired": "false",
+      "freemiumSettings": {
+        "duration": 0
+      }
+    },
+    "adLinkForXMLData": {
+      "@xlink.href": "https://pubads.g.doubleclick.net/gampad/adx?iu=/4467/IS24_APP_DE/app_gallery_ad&sz=420x315&c=2&dpt=1&pre=1%3Dis54&tile=1&m=text/xml&t=obj_regio1%3DBerlin%26obj_serviceCharge%3D161.79%26obj_cId%3D17168578%26obj_newlyConst%3Dy%26obj_balcony%3Dy%26obj_picture%3Dhttps%3A%2F%2Fpictures.immobilienscout24.de%2Flistings%2Fe1cc3f55-fe77-49bf-b24f-6ee3f73555be-1234066885.jpg%2FORIG%2Fresize%2F118x118%25253E%2Fextent%2F118x118%2Fformat%2Fjpg%26obj_picturecount%3D4%26obj_totalRent%3D1188.68%26obj_yearConstructed%3D2018%26obj_scoutId%3D106895045%26obj_firingTypes%3Ddistrict_heating%26obj_hasKitchen%3Dn%26geo_bln%3DBerlin%26obj_cellar%3Dn%26obj_yearConstructedRange%3D9%26obj_baseRent%3D950.75%26obj_houseNumber%3D10%26obj_energyType%3Denergy_required%26obj_livingSpace%3D95.17%26geo_krs%3DBerlin%26obj_zipCode%3D12681%26obj_condition%3Dno_information%26obj_interiorQual%3Dno_information%26obj_petsAllowed%3Dno_information%26obj_street%3DEugen-Roth-Weg%26obj_lift%3Dy%26obj_depositLink%3Dy%26obj_baseRentRange%3D6%26obj_streetPlain%3DEugen-Roth-Weg%26obj_typeOfFlat%3Dapartment%26geo_plz%3D12681%26obj_noRooms%3D4%26obj_assistedLiving%3Dn%26obj_thermalChar%3D51.7%26obj_groupnumber%3D13%26obj_ityp%3D0%2Cactive%26geo_land%3DDeutschland%26obj_immotype%3Dwohnung_miete%26obj_heatingCosts%3D76.14%26obj_floor%3D2%26obj_cwId%3D002.01007941795%26obj_numberOfFloors%3D8%26obj_noRoomsRange%3D4%26obj_garden%3Dn%26obj_barrierFree%3Dn%26obj_regio3%3DBiesdorf_Marzahn%26obj_objectnumber%3D1400-51805-0100%26obj_livingSpaceRange%3D4%26obj_regio2%3DBerlin"
+    },
+    "adLinkForJSONP": {
+      "@xlink.href": "pubads.g.doubleclick.net/gampad/adx?iu=/4467/IS24_APP_DE/app_gallery_ad&sz=420x315&c=2&dpt=1&pre=1%3Dis54&tile=1&m=text/xml&t=obj_regio1%3DBerlin%26obj_serviceCharge%3D161.79%26obj_cId%3D17168578%26obj_newlyConst%3Dy%26obj_balcony%3Dy%26obj_picture%3Dhttps%3A%2F%2Fpictures.immobilienscout24.de%2Flistings%2Fe1cc3f55-fe77-49bf-b24f-6ee3f73555be-1234066885.jpg%2FORIG%2Fresize%2F118x118%25253E%2Fextent%2F118x118%2Fformat%2Fjpg%26obj_picturecount%3D4%26obj_totalRent%3D1188.68%26obj_yearConstructed%3D2018%26obj_scoutId%3D106895045%26obj_firingTypes%3Ddistrict_heating%26obj_hasKitchen%3Dn%26geo_bln%3DBerlin%26obj_cellar%3Dn%26obj_yearConstructedRange%3D9%26obj_baseRent%3D950.75%26obj_houseNumber%3D10%26obj_energyType%3Denergy_required%26obj_livingSpace%3D95.17%26geo_krs%3DBerlin%26obj_zipCode%3D12681%26obj_condition%3Dno_information%26obj_interiorQual%3Dno_information%26obj_petsAllowed%3Dno_information%26obj_street%3DEugen-Roth-Weg%26obj_lift%3Dy%26obj_depositLink%3Dy%26obj_baseRentRange%3D6%26obj_streetPlain%3DEugen-Roth-Weg%26obj_typeOfFlat%3Dapartment%26geo_plz%3D12681%26obj_noRooms%3D4%26obj_assistedLiving%3Dn%26obj_thermalChar%3D51.7%26obj_groupnumber%3D13%26obj_ityp%3D0%2Cactive%26geo_land%3DDeutschland%26obj_immotype%3Dwohnung_miete%26obj_heatingCosts%3D76.14%26obj_floor%3D2%26obj_cwId%3D002.01007941795%26obj_numberOfFloors%3D8%26obj_noRoomsRange%3D4%26obj_garden%3Dn%26obj_barrierFree%3Dn%26obj_regio3%3DBiesdorf_Marzahn%26obj_objectnumber%3D1400-51805-0100%26obj_livingSpaceRange%3D4%26obj_regio2%3DBerlin"
+    },
+    "listingType": "M"
+  }
+}

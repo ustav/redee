@@ -1,8 +1,10 @@
-package is24.poc.api;
+package is24.mapi;
 
-import com.scout24.redee.extraction.model.LegacyExposeResponse;
+import is24.mapi.Model.LegacyExposeResponse;
 import retrofit2.Call;
-import retrofit2.http.*;
+import retrofit2.http.GET;
+import retrofit2.http.Headers;
+import retrofit2.http.Path;
 
 public interface LegacyRestApi {
 

@@ -11,6 +11,7 @@
 
     <modules>
         <module>redee-core</module>
+        <module>redee-mapi</module>
     </modules>
 
 </project>
