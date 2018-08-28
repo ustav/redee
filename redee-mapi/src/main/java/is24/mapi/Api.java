@@ -1,10 +1,6 @@
 package is24.mapi;
 
 import io.reactivex.Single;
-import java.io.IOException;
-import java.util.List;
-import java.util.Map;
-
 import is24.mapi.Model.*;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
@@ -14,6 +10,9 @@ import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
+
+import java.io.IOException;
+import java.util.Map;
 
 public class Api {
 
@@ -51,7 +50,7 @@ public class Api {
     authApi = new AuthApi();
   }
 
-  public Single<List<SearchItem>> search(Map<String, String> parameters) {
+  public Single<SearchResponse> search(Map<String, String> parameters) {
     return Single.create(e -> {
       Response<SearchResponse> response = restApi.search(parameters).execute();
       if (response.isSuccessful()) {
@@ -59,7 +58,7 @@ public class Api {
         if (searchResponse == null) {
           e.onError(new NullPointerException("SearchResponse is null"));
         } else {
-          e.onSuccess(searchResponse.results);
+          e.onSuccess(searchResponse);
         }
       } else {
         ResponseBody errorBody = response.errorBody();

@@ -19,4 +19,16 @@ public class SearchResponse {
         this.numberOfPages = numberOfPages;
         this.totalNewResults = totalNewResults;
     }
+
+    @Override
+    public String toString() {
+        return "SearchResponse{" +
+                "totalResults=" + totalResults +
+                ", pageSize=" + pageSize +
+                ", pageNumber=" + pageNumber +
+                ", numberOfPages=" + numberOfPages +
+                ", totalNewResults=" + totalNewResults +
+                ", results=" + results +
+                '}';
+    }
 }

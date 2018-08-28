@@ -29,9 +29,13 @@ public class Fetcher {
 
         Api api = new Api();
         List<LegacyExpose> items = api.search(searchParameters)
-                .flatMap(searchItems -> loadExposes(searchItems, api))
+                .flatMap(searchResponse -> {
+                    System.out.println("Search response: " + searchResponse);
+                    return loadExposes(searchResponse.results, api);
+                })
                 .blockingGet();
 
+        System.out.println("Loaded: " + items);
 
         Gson gson = new Gson();
         for (LegacyExpose item : items) {
@@ -41,7 +45,6 @@ public class Fetcher {
     }
 
     private static Single<List<LegacyExpose>> loadExposes(List<SearchItem> items, Api api) {
-        System.out.println("Loaded: " + items);
         return Flowable
                 .fromIterable(items)
                 .flatMapSingle(searchItem -> api.getLegacyExpose(searchItem.id))

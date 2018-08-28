@@ -14,4 +14,14 @@ public class SearchItem {
     this.attributes = attributes;
     this.pictureUrl = pictureUrl;
   }
+
+  @Override
+  public String toString() {
+    return "SearchItem{" +
+            "id='" + id + '\'' +
+            ", infoLine='" + infoLine + '\'' +
+            ", attributes=" + attributes +
+            ", pictureUrl='" + pictureUrl + '\'' +
+            '}';
+  }
 }
