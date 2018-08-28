@@ -19,7 +19,7 @@ public class StanfordInformationExtractorTest {
 
     @Before
     public void setUp() throws Exception {
-        this.analyser = new StanfordInformationExtractor("stanford/pattern/date.pttrn");
+        this.analyser = new StanfordInformationExtractor();
     }
 
     @Test

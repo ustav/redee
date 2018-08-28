@@ -36,7 +36,7 @@ public class App extends NanoHTTPD {
         keywordExtractor = new KeywordExtractor(gson.fromJson(keywordsString, KeywordsHolder[].class));
 
         try {
-            stanfordInformationExtractor = new StanfordInformationExtractor("stanford/pattern/date.pttrn");
+            stanfordInformationExtractor = new StanfordInformationExtractor();
         } catch (ResourceException e) {
             e.printStackTrace();
         }

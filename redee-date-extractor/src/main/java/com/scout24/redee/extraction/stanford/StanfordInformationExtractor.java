@@ -27,24 +27,23 @@ import java.util.*;
  */
 public class StanfordInformationExtractor implements InformationExtractor<DateExtraction> {
 
+    private static final String PATTERN_FILE = "stanford/pattern/date.pttrn";
+    private static final String STANFORD_CORE_NLP_DE_PROPERTIES = "stanford/StanfordCoreNlpDe.properties";
+
     private MultiPatternMatcher<CoreMap> multiMatcher;
     private StanfordCoreNLP pipeline;
 
-    public StanfordInformationExtractor(String patternFile) throws IOException, ResourceException {
+    public StanfordInformationExtractor() throws IOException, ResourceException {
 
-        URL url = NameResolver.resolve(patternFile);
+        URL url = NameResolver.resolve(PATTERN_FILE);
         List<String> strings = FileUtils.readLines(Utils.urlToFile(url), "UTF-8");
         initialize(strings);
-    }
-
-    public StanfordInformationExtractor() {
-
     }
 
     public void initialize(List<String> strings) throws IOException, ResourceException {
 
         Properties properties = StringUtils.argsToProperties(
-                new String[]{"-props", "stanford/StanfordCoreNlpDe.properties"});
+                new String[]{"-props", STANFORD_CORE_NLP_DE_PROPERTIES});
         pipeline = new StanfordCoreNLP(properties);
 
         Env env = TokenSequencePattern.getNewEnv();
@@ -92,13 +91,13 @@ public class StanfordInformationExtractor implements InformationExtractor<DateEx
         Collection<DateExtraction> chunks = new HashSet<>();
         List<CoreLabel> tokens = annotations.get(CoreAnnotations.TokensAnnotation.class);
         List<SequenceMatchResult<CoreMap>> nonOverlapping = multiMatcher.findNonOverlapping(tokens);
-        System.out.println("Analysing content: '" + annotations.get(CoreAnnotations.TextAnnotation.class) + "'");
+        //System.out.println("Analysing content: '" + annotations.get(CoreAnnotations.TextAnnotation.class) + "'");
 
         for (SequenceMatchResult<CoreMap> match : nonOverlapping) {
 
             for (int i = 0; i <= match.groupCount(); i++) {
                 String group = match.group(i);
-                System.out.println("group " + i + ": '" + group + "'");
+                //System.out.println("group " + i + ": '" + group + "'");
                 chunks.add(createExtraction(match));
             }
         }
