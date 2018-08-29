@@ -1,4 +1,4 @@
-package is24.mapi.Model;
+package is24.mapi.model;
 
 public class AccessToken {
   public final String token;

@@ -1,4 +1,4 @@
-package is24.mapi.Model;
+package is24.mapi.model;
 
 /**
  * Created by dprawdzik on 10.01.18.

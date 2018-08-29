@@ -3,8 +3,8 @@ package is24.mapi;
 import com.google.gson.Gson;
 import io.reactivex.Flowable;
 import io.reactivex.Single;
-import is24.mapi.Model.LegacyExpose;
-import is24.mapi.Model.SearchItem;
+import is24.mapi.model.LegacyExpose;
+import is24.mapi.model.SearchItem;
 
 import java.util.HashMap;
 import java.util.List;

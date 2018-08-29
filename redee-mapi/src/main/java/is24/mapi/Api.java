@@ -1,7 +1,7 @@
 package is24.mapi;
 
 import io.reactivex.Single;
-import is24.mapi.Model.*;
+import is24.mapi.model.*;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;

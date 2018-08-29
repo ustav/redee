@@ -1,4 +1,4 @@
-package is24.mapi.Model;
+package is24.mapi.model;
 
 import com.google.gson.annotations.SerializedName;
 

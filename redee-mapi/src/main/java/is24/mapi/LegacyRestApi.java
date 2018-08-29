@@ -1,6 +1,6 @@
 package is24.mapi;
 
-import is24.mapi.Model.LegacyExposeResponse;
+import is24.mapi.model.LegacyExposeResponse;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Header;

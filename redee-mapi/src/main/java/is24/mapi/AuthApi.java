@@ -3,8 +3,8 @@ package is24.mapi;
 import io.reactivex.Single;
 import java.io.IOException;
 
-import is24.mapi.Model.AccessToken;
-import is24.mapi.Model.AuthTokenResponse;
+import is24.mapi.model.AccessToken;
+import is24.mapi.model.AuthTokenResponse;
 import okhttp3.OkHttpClient;
 import okhttp3.ResponseBody;
 import okhttp3.logging.HttpLoggingInterceptor;

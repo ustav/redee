@@ -2,8 +2,8 @@ package is24.mapi;
 
 import java.util.Map;
 
-import is24.mapi.Model.ExposeResponse;
-import is24.mapi.Model.SearchResponse;
+import is24.mapi.model.ExposeResponse;
+import is24.mapi.model.SearchResponse;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Header;

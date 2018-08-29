@@ -1,6 +1,6 @@
 package is24.mapi;
 
-import is24.mapi.Model.AuthTokenResponse;
+import is24.mapi.model.AuthTokenResponse;
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
