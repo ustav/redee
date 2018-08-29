@@ -17,6 +17,8 @@ public class RealEstate {
     public String locationNote;
     public String otherNote;
 
+    public String title;
+
     public String apartmentType;
     private boolean lift;
     private boolean assistedLiving;
@@ -41,6 +43,14 @@ public class RealEstate {
     private String guestToilet;
     private String parkingSpaceType;
 
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    
     public String getId() {
         return id;
     }
