@@ -50,7 +50,7 @@ public class RealEstate {
     public void setTitle(String title) {
         this.title = title;
     }
-    
+
     public String getId() {
         return id;
     }
