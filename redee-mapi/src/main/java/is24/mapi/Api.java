@@ -75,15 +75,15 @@ public class Api {
         });
     }
 
-    public Single<SearchResponse> search(Map<String, String> parameters, String authBearer) {
+    public Single<SearchPage> search(Map<String, String> parameters, String authBearer) {
         return Single.create(e -> {
-            Response<SearchResponse> response = restApi.search(parameters, authBearer).execute();
+            Response<SearchPage> response = restApi.search(parameters, authBearer).execute();
             if (response.isSuccessful()) {
-                SearchResponse searchResponse = response.body();
-                if (searchResponse == null) {
+                SearchPage searchPage = response.body();
+                if (searchPage == null) {
                     e.onError(new NullPointerException("SearchResponse is null"));
                 } else {
-                    e.onSuccess(searchResponse);
+                    e.onSuccess(searchPage);
                 }
             } else {
                 ResponseBody errorBody = response.errorBody();

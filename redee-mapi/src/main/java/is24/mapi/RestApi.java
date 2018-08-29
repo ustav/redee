@@ -3,6 +3,7 @@ package is24.mapi;
 import java.util.Map;
 
 import is24.mapi.model.ExposeResponse;
+import is24.mapi.model.SearchPage;
 import is24.mapi.model.SearchResponse;
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -17,8 +18,8 @@ public interface RestApi {
   @GET("home/search")
   Call<SearchResponse> search(@QueryMap Map<String, String> parameters);
 
-  @GET("home/search")
-  Call<SearchResponse> search(@QueryMap Map<String, String> parameters, @Header("Authorization") String authBearer);
+  @GET("search")
+  Call<SearchPage> search(@QueryMap Map<String, String> parameters, @Header("Authorization") String authBearer);
 
   @GET("expose/{exposeId}")
   Call<ExposeResponse> getExpose(@Path("exposeId") String exposeId);
